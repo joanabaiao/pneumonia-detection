@@ -44,9 +44,9 @@ Initially, I developed a CNN model from scratch. To define the optimal architect
 - F1-Score: 0.9069
 - AUC-ROC: 0.921
 
-<img src= 'Images/cm_cnn.png' width=300px>
+<img src= 'Images/cm_cnn.png' width=450px>
 
-<img src= 'Images/roc_cnn.png' width=300px>
+<img src= 'Images/roc_cnn.png' width=450px>
 
 Despite the relatively good performance, there was room for improvement, particularly in terms of accuracy and precision.
 
@@ -74,9 +74,9 @@ The transfer learning approach with Inception improved the model's performance m
 - F1-Score: 0.9447
 - AUC-ROC: 0.983
 
-<img src= 'Images/cm_inception.png' width=300px>
+<img src= 'Images/cm_inception.png' width=450px>
 
-<img src= 'Images/roc_inception.png' width=300px>
+<img src= 'Images/roc_inception.png' width=450px>
 
 An important observation is that precision increased while recall slightly decreased with the Inception model. This indicates that while the model became more precise in identifying pneumonia cases (higher precision), it also missed more actual pneumonia cases (lower recall).
 
